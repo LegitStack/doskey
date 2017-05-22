@@ -1,0 +1,1 @@
+copy *.cmd C:\Windows\System32\
