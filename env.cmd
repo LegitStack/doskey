@@ -1,12 +1,12 @@
 @echo off
 
-doskey a=atom . 
+doskey a=atom .
 doskey e=explorer .
 doskey s=cd c:\sites\
 doskey w=cd c:\work\
 doskey c=cd c:\
 
-doskey cc=cd ..
+doskey cdd=cd ..
 
 doskey gs=git status
 doskey ga=git add --all
