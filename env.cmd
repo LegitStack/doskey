@@ -11,7 +11,7 @@ doskey cc=cd ..
 doskey gs=git status
 doskey ga=git add --all
 doskey gc=git commit -m "commit"
-doskey gp=git push -u origin master
+doskey gu=git push -u origin master
 doskey gg=git push
 
 doskey dps=mix deps.get
