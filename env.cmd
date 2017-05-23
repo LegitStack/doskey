@@ -3,7 +3,7 @@
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd c:\sites\
-doskey w=cd c:\work\
+doskey w=cd C:\Users\jmiller.ADS-WCF\workspaces\
 doskey c=cd c:\
 
 doskey cdd=cd ..
