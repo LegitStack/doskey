@@ -13,6 +13,7 @@ doskey ga=git add --all
 doskey gc=git commit -m "commit"
 doskey gu=git push -u origin master
 doskey gg=git push
+doskey gp=git pull
 
 doskey dps=mix deps.get
 doskey ism=iex -S mix
