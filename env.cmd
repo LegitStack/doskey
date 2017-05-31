@@ -17,5 +17,6 @@ doskey gp=git pull
 
 doskey dps=mix deps.get
 doskey ism=iex -S mix
+doskey isms=iex -S mix phx.Server
 
 doskey dos=notepad.exe c:\windows\system32\env.cmd
