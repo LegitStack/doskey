@@ -6,6 +6,9 @@ doskey s=cd C:\sites\
 doskey w=cd C:\Users\jm\workspaces\
 doskey c=cd C:\
 
+doskey vu=vagrant up
+doskey vs=vagrant ssh
+
 doskey cdd=cd ..
 
 doskey gs=git status
