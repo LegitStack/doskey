@@ -1,5 +1,7 @@
 @echo off
 
+doskey v=echo 1
+
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
