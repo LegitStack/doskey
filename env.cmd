@@ -1,15 +1,16 @@
 @echo off
 
-doskey v=echo 1
+REM doskey v=echo 1
 
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
-doskey w=cd C:\Users\jm\workspaces\
-doskey c=cd C:\
 
-doskey vu=vagrant up
-doskey vs=vagrant ssh
+REM doskey w=cd C:\Users\jm\workspaces\
+REM doskey c=cd C:\
+
+REM doskey vu=vagrant up
+REM doskey vs=vagrant ssh
 
 doskey cdd=cd ..
 
@@ -20,8 +21,9 @@ doskey gu=git push -u origin master
 doskey gg=git push
 doskey gp=git pull
 
-doskey dps=mix deps.get
-doskey ism=iex -S mix
-doskey isms=iex -S mix phx.Server
+REM doskey dps=mix deps.get
+REM doskey ism=iex -S mix
+REM doskey isms=iex -S mix phx.Server
 
 doskey dos=notepad.exe c:\windows\system32\env.cmd
+doskey commands=notepad.exe c:\windows\system32\env.cmd
