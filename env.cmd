@@ -6,9 +6,7 @@ doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
 doskey w=cd C:\Users\jmiller\Documents\workspaces
-doskey c=cd C:\
-
-doskey cdd=cd ..
+doskey c=cd ..
 
 doskey gs=git status
 doskey ga=git add --all
