@@ -5,7 +5,7 @@ REM doskey v=echo 1
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
-doskey w=cd C:\Users\jmiller\Documents\workspaces
+doskey w=cd C:\workspaces
 doskey c=cd ..
 
 doskey gs=git status
