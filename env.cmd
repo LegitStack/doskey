@@ -5,8 +5,13 @@ REM doskey v=echo 1
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
-doskey w=cd C:\workspaces
+doskey w=cd C:\workspaces\
 doskey c=cd ..
+
+doskey ls=dir
+doskey touch=echo. 2>empty_file.txt
+doskey clear=cls
+doskey hoome=c:
 
 doskey gs=git status
 doskey ga=git add --all
