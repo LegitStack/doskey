@@ -1,7 +1,5 @@
 @echo off
 
-REM doskey v=echo 1
-
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
@@ -9,7 +7,6 @@ doskey w=cd C:\workspaces\
 doskey c=cd ..
 
 doskey ls=dir
-doskey touch=echo. 2>empty_file.txt
 doskey clear=cls
 doskey hoome=c:
 
@@ -23,9 +20,14 @@ doskey gp=git pull
 doskey dos=notepad.exe c:\windows\system32\env.cmd
 doskey commands=notepad.exe c:\windows\system32\env.cmd
 
+
+REM doskey v=echo 1
+
 REM doskey vu=vagrant up
 REM doskey vs=vagrant ssh
 
 REM doskey dps=mix deps.get
 REM doskey ism=iex -S mix
 REM doskey isms=iex -S mix phx.Server
+
+REM doskey touch=echo. 2>empty_file.txt
