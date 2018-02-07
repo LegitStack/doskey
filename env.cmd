@@ -3,12 +3,13 @@
 doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
+doskey r=cd C:\repos\
 doskey w=cd C:\workspaces\
 doskey c=cd ..
 
 doskey ls=dir
 doskey clear=cls
-doskey hoome=c:
+doskey home=c:
 
 doskey gs=git status
 doskey ga=git add --all
