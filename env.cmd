@@ -18,6 +18,8 @@ doskey gu=git push -u origin master
 doskey gg=git push
 doskey gp=git pull
 
+doskey jn=jupyter notebook
+
 doskey dos=notepad.exe c:\windows\system32\env.cmd
 doskey commands=notepad.exe c:\windows\system32\env.cmd
 
