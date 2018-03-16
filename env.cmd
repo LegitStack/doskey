@@ -13,16 +13,17 @@ doskey home=c:
 
 doskey gs=git status
 doskey ga=git add --all
-doskey gc=git commit -m "commit"
+doskey gc=if $1. equ . (git commit -m "commit") else (git commit -m "$*")
 doskey gu=git push -u origin master
-doskey gg=git push
+doskey gg=if $1. equ '' (git push) else (git push -u origin master)
 doskey gp=git pull
 
 doskey jn=jupyter notebook
 
+doskey pipinstall=if $1. equ '' (pip install .) else (pip install --trusted-host pypi.python.org $*)
+
 doskey dos=notepad.exe c:\windows\system32\env.cmd
 doskey commands=notepad.exe c:\windows\system32\env.cmd
-
 
 REM doskey v=echo 1
 
