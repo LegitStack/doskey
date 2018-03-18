@@ -33,3 +33,7 @@ REM doskey dps=mix deps.get
 REM doskey ism=iex -S mix
 REM doskey isms=iex -S mix phx.Server
 REM doskey touch=echo. 2>empty_file.txt
+
+doskey p=if $1. equ '' (python) else (python $*)
+
+doskey javahelp=echo "java commands: java -jar swirlds.jar | javac MyProgram.java | jar cfm MyProgram.java manefest.txt MyProgram.class | Main-Class: MyProgram [ENTER, ENTER]" 
