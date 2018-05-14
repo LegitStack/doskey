@@ -36,4 +36,6 @@ REM doskey touch=echo. 2>empty_file.txt
 
 doskey p=if $1. equ '' (python) else (python $*)
 
-doskey javahelp=echo "java commands: java -jar swirlds.jar | javac MyProgram.java | jar cfm MyProgram.java manefest.txt MyProgram.class | Main-Class: MyProgram [ENTER, ENTER]" 
+doskey javahelp=echo "java commands: java -jar swirlds.jar | javac MyProgram.java | jar cfm MyProgram.java manefest.txt MyProgram.class | Main-Class: MyProgram [ENTER, ENTER]"
+
+doskey ns=if $1. equ '' (npm start) else (npm run $*)
