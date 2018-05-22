@@ -18,6 +18,7 @@ doskey gc=if $1. equ '' (git commit -m "commit") else (git commit -m "$*")
 doskey gu=git push -u origin master
 doskey gg=if $1. equ '' (git push) else (git push -u origin master)
 doskey gp=git pull
+doskey gr=git reset --hard origin/master
 
 doskey jn=jupyter notebook
 
