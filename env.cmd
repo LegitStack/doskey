@@ -33,7 +33,7 @@ REM doskey ism=iex -S mix
 REM doskey isms=iex -S mix phx.Server
 REM doskey touch=echo. 2>empty_file.txt
 
-doskey pipinstall=if $1. equ '' (pip install .) else (pip install --trusted-host pypi.python.org $*)
+doskey pipinstall=if $1. equ '' (pip install .) else (pip install --trusted-host pypi.org $*)
 doskey p=if $1. equ '' (python) else (python $*)
 doskey py=if $1. equ '' (python) else (python $*)
 doskey pt=if $1. equ '' (pytest) else (pytest $*)
