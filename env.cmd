@@ -4,7 +4,7 @@ doskey a=atom .
 doskey e=explorer .
 doskey s=cd C:\sites\
 doskey r=cd C:\repos\
-doskey w=cd C:\workspaces\
+doskey w=cd %WCF_REPOS%
 doskey c=cd ..
 
 doskey ls=dir
